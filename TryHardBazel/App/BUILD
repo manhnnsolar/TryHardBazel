@@ -12,7 +12,8 @@ swift_library(
     	"Base.lproj/LaunchScreen.storyboard",
     ],
     deps = [
-        
+        "//Root",
+        "//Thirdparty/RIBs",
     ]
 )
 
@@ -22,6 +23,7 @@ ios_application(
     infoplists = ["Info.plist"],
     families = ["iphone"],
     minimum_os_version = "12.0",
+    provisioning_profile = "Profiles.mobileprovision",
     deps = [
         ":App_Classes",
     ]

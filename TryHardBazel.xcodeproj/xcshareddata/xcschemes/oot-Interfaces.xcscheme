@@ -1,0 +1,29 @@
+
+<Scheme LastUpgradeVersion="1000" version="1.3">
+    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForProfiling="YES" buildForAnalyzing="YES" buildForRunning="YES" buildForArchiving="YES" buildForTesting="YES">
+                <BuildableReference BuildableIdentifier="primary" BlueprintName="oot-Interfaces" BlueprintIdentifier="5F9CA5295AEB197A00000000" BuildableName="liboot-Interfaces.a" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+    </BuildAction>
+    <TestAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" buildConfiguration="__TulsiTestRunner_Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="YES" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit">
+        <Testables></Testables>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="oot-Interfaces" BlueprintIdentifier="5F9CA5295AEB197A00000000" BuildableIdentifier="primary" BuildableName="liboot-Interfaces.a"></BuildableReference>
+        </BuildableProductRunnable>
+    </TestAction>
+    <LaunchAction buildConfiguration="Debug" useCustomWorkingDirectory="NO" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" launchStyle="0" debugServiceExtension="internal" allowLocationSimulation="YES" ignoresPersistentStateOnLaunch="NO" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit" debugDocumentVersioning="YES">
+        <EnvironmentVariables></EnvironmentVariables>
+        <MacroExpansion>
+            <BuildableReference BuildableName="liboot-Interfaces.a" BlueprintIdentifier="5F9CA5295AEB197A00000000" BlueprintName="oot-Interfaces" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+        </MacroExpansion>
+    </LaunchAction>
+    <ProfileAction shouldUseLaunchSchemeArgsEnv="YES" useCustomWorkingDirectory="NO" buildConfiguration="__TulsiTestRunner_Release" debugDocumentVersioning="YES">
+        <MacroExpansion>
+            <BuildableReference BuildableName="liboot-Interfaces.a" BlueprintName="oot-Interfaces" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="5F9CA5295AEB197A00000000"></BuildableReference>
+        </MacroExpansion>
+    </ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction revealArchiveInOrganizer="YES" buildConfiguration="Release"></ArchiveAction>
+</Scheme>

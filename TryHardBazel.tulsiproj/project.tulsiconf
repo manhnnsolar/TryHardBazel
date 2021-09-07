@@ -1,0 +1,17 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "App",
+    "Assets",
+    "Home",
+    "Root",
+    "Thirdparty/RIBs",
+    "Thirdparty/RxSwift"
+  ],
+  "projectName" : "TryHardBazel",
+  "workspaceRoot" : "../TryHardBazel"
+}

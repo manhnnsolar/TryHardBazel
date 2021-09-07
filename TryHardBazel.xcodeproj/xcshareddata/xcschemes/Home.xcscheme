@@ -1,0 +1,29 @@
+
+<Scheme LastUpgradeVersion="1000" version="1.3">
+    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForAnalyzing="YES" buildForTesting="YES" buildForArchiving="YES" buildForRunning="YES" buildForProfiling="YES">
+                <BuildableReference BlueprintIdentifier="C41DF9F64D9B784600000000" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="libHome.a" BlueprintName="Home"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+    </BuildAction>
+    <TestAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="YES" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit" buildConfiguration="__TulsiTestRunner_Debug">
+        <Testables></Testables>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BlueprintName="Home" BlueprintIdentifier="C41DF9F64D9B784600000000" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="libHome.a"></BuildableReference>
+        </BuildableProductRunnable>
+    </TestAction>
+    <LaunchAction allowLocationSimulation="YES" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit" useCustomWorkingDirectory="NO" buildConfiguration="Debug" debugServiceExtension="internal" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" launchStyle="0" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES">
+        <EnvironmentVariables></EnvironmentVariables>
+        <MacroExpansion>
+            <BuildableReference BuildableName="libHome.a" BlueprintIdentifier="C41DF9F64D9B784600000000" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="Home" BuildableIdentifier="primary"></BuildableReference>
+        </MacroExpansion>
+    </LaunchAction>
+    <ProfileAction debugDocumentVersioning="YES" buildConfiguration="__TulsiTestRunner_Release" useCustomWorkingDirectory="NO" shouldUseLaunchSchemeArgsEnv="YES">
+        <MacroExpansion>
+            <BuildableReference BuildableName="libHome.a" BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F64D9B784600000000" BlueprintName="Home" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+        </MacroExpansion>
+    </ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
+</Scheme>

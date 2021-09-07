@@ -1,0 +1,29 @@
+
+<Scheme LastUpgradeVersion="1000" version="1.3">
+    <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForArchiving="YES" buildForProfiling="YES" buildForTesting="YES" buildForRunning="YES" buildForAnalyzing="YES">
+                <BuildableReference BlueprintName="Thirdparty-RIBs-RIBs" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="libThirdparty-RIBs-RIBs.a" BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F6A164024800000000"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+    </BuildAction>
+    <TestAction customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit" buildConfiguration="__TulsiTestRunner_Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" shouldUseLaunchSchemeArgsEnv="YES">
+        <Testables></Testables>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BlueprintName="Thirdparty-RIBs-RIBs" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F6A164024800000000" BuildableName="libThirdparty-RIBs-RIBs.a"></BuildableReference>
+        </BuildableProductRunnable>
+    </TestAction>
+    <LaunchAction useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit" launchStyle="0" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" allowLocationSimulation="YES" debugDocumentVersioning="YES" debugServiceExtension="internal" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="Debug">
+        <EnvironmentVariables></EnvironmentVariables>
+        <MacroExpansion>
+            <BuildableReference BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="C41DF9F6A164024800000000" BuildableName="libThirdparty-RIBs-RIBs.a" BlueprintName="Thirdparty-RIBs-RIBs"></BuildableReference>
+        </MacroExpansion>
+    </LaunchAction>
+    <ProfileAction debugDocumentVersioning="YES" shouldUseLaunchSchemeArgsEnv="YES" useCustomWorkingDirectory="NO" buildConfiguration="__TulsiTestRunner_Release">
+        <MacroExpansion>
+            <BuildableReference BuildableName="libThirdparty-RIBs-RIBs.a" BlueprintIdentifier="C41DF9F6A164024800000000" BuildableIdentifier="primary" BlueprintName="Thirdparty-RIBs-RIBs" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+        </MacroExpansion>
+    </ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction revealArchiveInOrganizer="YES" buildConfiguration="Release"></ArchiveAction>
+</Scheme>

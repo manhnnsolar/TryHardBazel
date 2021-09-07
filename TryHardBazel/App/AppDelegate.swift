@@ -1,22 +1,28 @@
 //
 //  AppDelegate.swift
-//  TryHardBazel
+//  TryHardRIBs
 //
-//  Created by Manh Nguyen Ngoc on 04/09/2021.
+//  Created by Manh Nguyen Ngoc on 31/08/2021.
 //
 
 import UIKit
+import Root
+import RIBs
+import RootInterfaces
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    var window: UIWindow?
 
+    var window: UIWindow?
+    var rootRouter: RootRouting!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let rootVC = storyboard.instantiateInitialViewController()
-        self.window?.rootViewController = rootVC
-        self.window?.makeKeyAndVisible()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        let rootBuilder = RootBuilder(dependency: AppComponent(window: window!))
+        rootRouter = rootBuilder.build()
+        rootRouter.interactable.activate()
+        rootRouter.load()
         return true
     }
 }
