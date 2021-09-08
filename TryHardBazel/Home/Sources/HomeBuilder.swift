@@ -7,27 +7,32 @@
 
 import RIBs
 import HomeInterfaces
+import HistoryInterfaces
+import GameInterfaces
 import UIKit
+import History
+import Game
 
-public class HomeComponent: Component<HomeDependency> {
+final class HomeComponent: Component<HomeDependency> {
 
 }
 
 // MARK: - Builder
 
-public class HomeBuilder: Builder<HomeDependency>, HomeBuildable {
+public final class HomeBuilder: Builder<HomeDependency>, HomeBuildable {
 
     public override init(dependency: HomeDependency) {
         super.init(dependency: dependency)
     }
 
     public func build(withListener listener: HomeListener) -> HomeRouting {
-        // let component = HomeComponent(dependency: dependency)
+        let component = HomeComponent(dependency: dependency)
         let bundlePath = Bundle.main.bundlePath + "/HomeResources.bundle"
-        print(bundlePath)
         let viewController = HomeViewController(nibName: nil, bundle: Bundle.init(path: bundlePath))
         let interactor = HomeInteractor(presenter: viewController)
+        let historyBuilder = HistoryBuilder(dependency: component)
+        let gameBuilder = GameBuilder(dependency: component)
         interactor.listener = listener
-        return HomeRouter(interactor: interactor, viewController: viewController)
+        return HomeRouter(interactor: interactor, viewController: viewController, historyBuilder: historyBuilder, gameBuilder: gameBuilder)
     }
 }

@@ -16,7 +16,10 @@ public protocol HomeBuildable: Buildable {
 }
 
 public protocol HomeRouting: ViewableRouting {
-
+    func routeToHistory(playerWin: String, point: Int)
+    func dismissHistory(animated: Bool)
+    func routeToGame(point1: Int, point2: Int)
+    func dismissGame(animated: Bool)
 }
 
 public protocol HomeListener: AnyObject {

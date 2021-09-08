@@ -147,49 +147,18 @@ BUILD_SETTINGS = BazelBuildSettings(
             '--cpu=ios_i386',
             '--watchos_cpus=i386',
         ],
-        'watchos_x86_64': [
-            '--apple_platform_type=watchos',
-            '--watchos_cpus=i386',
-        ],
         'ios_arm64e': [
             '--apple_platform_type=ios',
             '--cpu=ios_arm64e',
             '--watchos_cpus=armv7k,arm64_32',
         ],
+        'watchos_x86_64': [
+            '--apple_platform_type=watchos',
+            '--watchos_cpus=i386',
+        ],
         'tvos_x86_64': [
             '--apple_platform_type=tvos',
             '--tvos_cpus=x86_64',
-        ],
-        'watchos_armv7k': [
-            '--apple_platform_type=watchos',
-            '--watchos_cpus=armv7k,arm64_32',
-        ],
-        'ios_armv7': [
-            '--apple_platform_type=ios',
-            '--cpu=ios_armv7',
-            '--watchos_cpus=armv7k',
-        ],
-        'tvos_arm64': [
-            '--apple_platform_type=tvos',
-            '--tvos_cpus=arm64',
-        ],
-        'macos_arm64': [
-            '--apple_platform_type=macos',
-            '--cpu=darwin_arm64',
-        ],
-        'macos_x86_64': [
-            '--apple_platform_type=macos',
-            '--cpu=darwin_x86_64',
-        ],
-        'ios_x86_64': [
-            '--apple_platform_type=ios',
-            '--cpu=ios_x86_64',
-            '--watchos_cpus=i386',
-        ],
-        'ios_arm64': [
-            '--apple_platform_type=ios',
-            '--cpu=ios_arm64',
-            '--watchos_cpus=armv7k,arm64_32',
         ],
         'watchos_i386': [
             '--apple_platform_type=watchos',
@@ -203,17 +172,52 @@ BUILD_SETTINGS = BazelBuildSettings(
             '--apple_platform_type=macos',
             '--cpu=darwin_arm64e',
         ],
+        'macos_arm64': [
+            '--apple_platform_type=macos',
+            '--cpu=darwin_arm64',
+        ],
+        'tvos_arm64': [
+            '--apple_platform_type=tvos',
+            '--tvos_cpus=arm64',
+        ],
+        'macos_x86_64': [
+            '--apple_platform_type=macos',
+            '--cpu=darwin_x86_64',
+        ],
+        'ios_armv7': [
+            '--apple_platform_type=ios',
+            '--cpu=ios_armv7',
+            '--watchos_cpus=armv7k',
+        ],
+        'ios_arm64': [
+            '--apple_platform_type=ios',
+            '--cpu=ios_arm64',
+            '--watchos_cpus=armv7k,arm64_32',
+        ],
+        'ios_x86_64': [
+            '--apple_platform_type=ios',
+            '--cpu=ios_x86_64',
+            '--watchos_cpus=i386',
+        ],
+        'watchos_armv7k': [
+            '--apple_platform_type=watchos',
+            '--watchos_cpus=armv7k,arm64_32',
+        ],
     },
     set([
-        '//Thirdparty/RxSwift:RxRelay',
-        '//Home:Home',
-        '//Thirdparty/RIBs:RIBs',
-        '//Home:Interfaces',
-        '//Root:Interfaces',
         '//App:App_Classes',
+        '//Root:Interfaces',
+        '//History:History',
+        '//Thirdparty/RIBs:RIBs',
+        '//Home:Home',
+        '//Home:Interfaces',
+        '//History:Interfaces',
         '//Thirdparty/RxSwift:RxSwift',
         '//Root:Root',
+        '//Game:Game',
         '//App:ios_app',
+        '//Thirdparty/RxSwift:RxRelay',
+        '//Game:Interfaces',
     ]),
     BazelFlagsSet(
         debug = BazelFlags(

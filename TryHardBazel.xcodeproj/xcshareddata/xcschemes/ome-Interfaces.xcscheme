@@ -1,27 +1,27 @@
 
-<Scheme LastUpgradeVersion="1000" version="1.3">
-    <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
+<Scheme version="1.3" LastUpgradeVersion="1000">
+    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
         <BuildActionEntries>
-            <BuildActionEntry buildForAnalyzing="YES" buildForTesting="YES" buildForRunning="YES" buildForArchiving="YES" buildForProfiling="YES">
-                <BuildableReference BlueprintName="ome-Interfaces" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="C41DF9F6D926B06200000000" BuildableName="libome-Interfaces.a"></BuildableReference>
+            <BuildActionEntry buildForArchiving="YES" buildForRunning="YES" buildForTesting="YES" buildForProfiling="YES" buildForAnalyzing="YES">
+                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="libome-Interfaces.a" BlueprintIdentifier="5B169BD9EF51D4AC00000000" BuildableIdentifier="primary" BlueprintName="ome-Interfaces"></BuildableReference>
             </BuildActionEntry>
         </BuildActionEntries>
     </BuildAction>
-    <TestAction shouldUseLaunchSchemeArgsEnv="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="__TulsiTestRunner_Debug">
+    <TestAction shouldUseLaunchSchemeArgsEnv="YES" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit" buildConfiguration="__TulsiTestRunner_Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB">
         <Testables></Testables>
         <BuildableProductRunnable runnableDebuggingMode="0">
-            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F6D926B06200000000" BuildableName="libome-Interfaces.a" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="ome-Interfaces"></BuildableReference>
+            <BuildableReference BlueprintIdentifier="5B169BD9EF51D4AC00000000" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BlueprintName="ome-Interfaces" BuildableName="libome-Interfaces.a"></BuildableReference>
         </BuildableProductRunnable>
     </TestAction>
-    <LaunchAction selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" debugDocumentVersioning="YES" useCustomWorkingDirectory="NO" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" allowLocationSimulation="YES" buildConfiguration="Debug" ignoresPersistentStateOnLaunch="NO" debugServiceExtension="internal" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit">
+    <LaunchAction launchStyle="0" ignoresPersistentStateOnLaunch="NO" useCustomWorkingDirectory="NO" allowLocationSimulation="YES" buildConfiguration="Debug" debugDocumentVersioning="YES" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit" debugServiceExtension="internal" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
         <EnvironmentVariables></EnvironmentVariables>
         <MacroExpansion>
-            <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="ome-Interfaces" BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F6D926B06200000000" BuildableName="libome-Interfaces.a"></BuildableReference>
+            <BuildableReference BuildableName="libome-Interfaces.a" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="ome-Interfaces" BlueprintIdentifier="5B169BD9EF51D4AC00000000"></BuildableReference>
         </MacroExpansion>
     </LaunchAction>
-    <ProfileAction useCustomWorkingDirectory="NO" buildConfiguration="__TulsiTestRunner_Release" debugDocumentVersioning="YES" shouldUseLaunchSchemeArgsEnv="YES">
+    <ProfileAction shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="__TulsiTestRunner_Release" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES">
         <MacroExpansion>
-            <BuildableReference BlueprintName="ome-Interfaces" BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F6D926B06200000000" BuildableName="libome-Interfaces.a" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            <BuildableReference BlueprintIdentifier="5B169BD9EF51D4AC00000000" BlueprintName="ome-Interfaces" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BuildableName="libome-Interfaces.a"></BuildableReference>
         </MacroExpansion>
     </ProfileAction>
     <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>

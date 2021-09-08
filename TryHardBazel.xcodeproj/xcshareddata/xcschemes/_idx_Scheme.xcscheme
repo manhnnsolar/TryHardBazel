@@ -1,64 +1,106 @@
 
-<Scheme LastUpgradeVersion="1000" version="1.3">
-    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+<Scheme version="1.3" LastUpgradeVersion="1000">
+    <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
         <BuildActionEntries>
-            <BuildActionEntry buildForRunning="YES" buildForTesting="YES" buildForProfiling="YES" buildForAnalyzing="YES" buildForArchiving="YES">
-                <BuildableReference BuildableIdentifier="primary" BuildableName="_idx_RxSwift_RxRelay_55AB8168_ios_min12.0.framework" BlueprintName="_idx_RxSwift_RxRelay_55AB8168_ios_min12.0" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="C41DF9F6AEAE49D000000000"></BuildableReference>
+            <BuildActionEntry buildForProfiling="YES" buildForAnalyzing="YES" buildForArchiving="YES" buildForRunning="YES" buildForTesting="YES">
+                <BuildableReference BlueprintIdentifier="342254725A44135600000000" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="_idx_Root_76E4D2D1_ios_min12.0.framework" BlueprintName="_idx_Root_76E4D2D1_ios_min12.0" BuildableIdentifier="primary"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForProfiling="YES" buildForArchiving="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForRunning="YES">
-                <BuildableReference BuildableIdentifier="primary" BlueprintName="_idx_RIBs_66B4FAFF_ios_min14.5" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="_idx_RIBs_66B4FAFF_ios_min14.5.framework" BlueprintIdentifier="C41DF9F6490962DE00000000"></BuildableReference>
+            <BuildActionEntry buildForRunning="YES" buildForProfiling="YES" buildForAnalyzing="YES" buildForArchiving="YES" buildForTesting="YES">
+                <BuildableReference BuildableIdentifier="primary" BuildableName="_idx_Interfaces_History_8B6121CA_ios_min12.0.framework" BlueprintName="_idx_Interfaces_History_8B6121CA_ios_min12.0" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="34225472EB78B5A400000000"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES" buildForTesting="YES" buildForRunning="YES">
-                <BuildableReference BuildableIdentifier="primary" BlueprintName="_idx_Interfaces_Home_1ECD6A79_ios_min14.5" BuildableName="_idx_Interfaces_Home_1ECD6A79_ios_min14.5.framework" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="C41DF9F6137CDB6E00000000"></BuildableReference>
+            <BuildActionEntry buildForProfiling="YES" buildForRunning="YES" buildForArchiving="YES" buildForTesting="YES" buildForAnalyzing="YES">
+                <BuildableReference BuildableIdentifier="primary" BuildableName="_idx_Interfaces_6606C3FC_ios_min12.0.framework" BlueprintIdentifier="34225472CAF6623400000000" BlueprintName="_idx_Interfaces_6606C3FC_ios_min12.0" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES" buildForTesting="YES" buildForRunning="YES">
-                <BuildableReference BlueprintName="_idx_App_Classes_9741C545_ios_min12.0" BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F6BC312DF600000000" BuildableName="_idx_App_Classes_9741C545_ios_min12.0.framework" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            <BuildActionEntry buildForAnalyzing="YES" buildForProfiling="YES" buildForRunning="YES" buildForTesting="YES" buildForArchiving="YES">
+                <BuildableReference BuildableName="_idx_Interfaces_Game_6E509B9D_ios_min14.5.framework" BuildableIdentifier="primary" BlueprintName="_idx_Interfaces_Game_6E509B9D_ios_min14.5" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="34225472BD26676800000000"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForArchiving="YES" buildForProfiling="YES" buildForTesting="YES" buildForRunning="YES" buildForAnalyzing="YES">
-                <BuildableReference BuildableName="_idx_Interfaces_A0E5E85A_ios_min12.0.framework" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="C41DF9F60DEF443600000000" BlueprintName="_idx_Interfaces_A0E5E85A_ios_min12.0" BuildableIdentifier="primary"></BuildableReference>
+            <BuildActionEntry buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES" buildForRunning="YES" buildForTesting="YES">
+                <BuildableReference BlueprintName="_idx_RxSwift_RxRelay_70C32552_ios_min12.0" BuildableName="_idx_RxSwift_RxRelay_70C32552_ios_min12.0.framework" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="342254721112616600000000"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForAnalyzing="YES" buildForTesting="YES" buildForProfiling="YES" buildForRunning="YES" buildForArchiving="YES">
+                <BuildableReference BlueprintIdentifier="34225472376B6B6C00000000" BuildableName="_idx_RxSwift_RxRelay_70C32552_ios_min14.5.framework" BlueprintName="_idx_RxSwift_RxRelay_70C32552_ios_min14.5" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForAnalyzing="YES" buildForTesting="YES" buildForProfiling="YES" buildForArchiving="YES" buildForRunning="YES">
+                <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="34225472BD26676800000000" BlueprintName="_idx_Interfaces_Game_6E509B9D_ios_min14.5" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="_idx_Interfaces_Game_6E509B9D_ios_min14.5.framework"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
+                <BuildableReference BuildableName="_idx_RxSwift_RxRelay_70C32552_ios_min14.5.framework" BlueprintIdentifier="34225472376B6B6C00000000" BuildableIdentifier="primary" BlueprintName="_idx_RxSwift_RxRelay_70C32552_ios_min14.5" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForRunning="YES" buildForTesting="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
+                <BuildableReference BlueprintName="_idx_Interfaces_Game_6E509B9D_ios_min12.0" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="342254721992F45800000000" BuildableName="_idx_Interfaces_Game_6E509B9D_ios_min12.0.framework" BuildableIdentifier="primary"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForTesting="YES" buildForAnalyzing="YES" buildForProfiling="YES" buildForArchiving="YES" buildForRunning="YES">
+                <BuildableReference BuildableName="_idx_Interfaces_Game_6E509B9D_ios_min12.0.framework" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="342254721992F45800000000" BuildableIdentifier="primary" BlueprintName="_idx_Interfaces_Game_6E509B9D_ios_min12.0"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForRunning="YES" buildForAnalyzing="YES" buildForProfiling="YES" buildForArchiving="YES" buildForTesting="YES">
+                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="34225472FF8C357400000000" BuildableName="_idx_App_Classes_6FB177B2_ios_min14.5.framework" BlueprintName="_idx_App_Classes_6FB177B2_ios_min14.5"></BuildableReference>
             </BuildActionEntry>
             <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForAnalyzing="YES" buildForArchiving="YES">
-                <BuildableReference BlueprintIdentifier="C41DF9F65CBCF6CA00000000" BuildableName="_idx_RxSwift_RxRelay_55AB8168_ios_min14.5.framework" BuildableIdentifier="primary" BlueprintName="_idx_RxSwift_RxRelay_55AB8168_ios_min14.5" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+                <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="342254726ADB152200000000" BuildableName="_idx_Interfaces_2FEA48E8_ios_min12.0.framework" BlueprintName="_idx_Interfaces_2FEA48E8_ios_min12.0" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForProfiling="YES" buildForArchiving="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForRunning="YES">
-                <BuildableReference BuildableName="_idx_RxSwift_RxRelay_55AB8168_ios_min14.5.framework" BlueprintName="_idx_RxSwift_RxRelay_55AB8168_ios_min14.5" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F65CBCF6CA00000000"></BuildableReference>
+            <BuildActionEntry buildForAnalyzing="YES" buildForArchiving="YES" buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES">
+                <BuildableReference BuildableName="_idx_Interfaces_History_8B6121CA_ios_min12.0.framework" BlueprintIdentifier="34225472EB78B5A400000000" BlueprintName="_idx_Interfaces_History_8B6121CA_ios_min12.0" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForProfiling="YES" buildForArchiving="YES" buildForRunning="YES" buildForAnalyzing="YES" buildForTesting="YES">
-                <BuildableReference BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="_idx_App_Classes_9741C545_ios_min14.5" BuildableName="_idx_App_Classes_9741C545_ios_min14.5.framework" BlueprintIdentifier="C41DF9F6F26ADA0A00000000"></BuildableReference>
+            <BuildActionEntry buildForTesting="YES" buildForProfiling="YES" buildForAnalyzing="YES" buildForRunning="YES" buildForArchiving="YES">
+                <BuildableReference BuildableName="_idx_Root_76E4D2D1_ios_min14.5.framework" BuildableIdentifier="primary" BlueprintName="_idx_Root_76E4D2D1_ios_min14.5" BlueprintIdentifier="3422547217231EEE00000000" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForAnalyzing="YES" buildForProfiling="YES" buildForRunning="YES" buildForArchiving="YES" buildForTesting="YES">
-                <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F6258E96CC00000000" BlueprintName="_idx_RIBs_66B4FAFF_ios_min12.0" BuildableName="_idx_RIBs_66B4FAFF_ios_min12.0.framework" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            <BuildActionEntry buildForTesting="YES" buildForAnalyzing="YES" buildForRunning="YES" buildForArchiving="YES" buildForProfiling="YES">
+                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="_idx_Interfaces_6606C3FC_ios_min14.5" BuildableName="_idx_Interfaces_6606C3FC_ios_min14.5.framework" BlueprintIdentifier="3422547259C1C08E00000000" BuildableIdentifier="primary"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForArchiving="YES" buildForAnalyzing="YES" buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES">
-                <BuildableReference BlueprintIdentifier="C41DF9F671E62A9600000000" BuildableName="_idx_Root_1FAA0384_ios_min14.5.framework" BuildableIdentifier="primary" BlueprintName="_idx_Root_1FAA0384_ios_min14.5" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            <BuildActionEntry buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES" buildForTesting="YES">
+                <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="34225472F914EEDE00000000" BlueprintName="_idx_Home_AF72AB7A_ios_min14.5" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="_idx_Home_AF72AB7A_ios_min14.5.framework"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForAnalyzing="YES" buildForRunning="YES" buildForArchiving="YES" buildForProfiling="YES" buildForTesting="YES">
-                <BuildableReference BuildableIdentifier="primary" BuildableName="_idx_Interfaces_Home_1ECD6A79_ios_min14.5.framework" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="_idx_Interfaces_Home_1ECD6A79_ios_min14.5" BlueprintIdentifier="C41DF9F6137CDB6E00000000"></BuildableReference>
+            <BuildActionEntry buildForTesting="YES" buildForArchiving="YES" buildForRunning="YES" buildForProfiling="YES" buildForAnalyzing="YES">
+                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="342254721112616600000000" BuildableIdentifier="primary" BuildableName="_idx_RxSwift_RxRelay_70C32552_ios_min12.0.framework" BlueprintName="_idx_RxSwift_RxRelay_70C32552_ios_min12.0"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForProfiling="YES" buildForAnalyzing="YES" buildForTesting="YES" buildForRunning="YES" buildForArchiving="YES">
-                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F6AEAE49D000000000" BuildableName="_idx_RxSwift_RxRelay_55AB8168_ios_min12.0.framework" BlueprintName="_idx_RxSwift_RxRelay_55AB8168_ios_min12.0"></BuildableReference>
+            <BuildActionEntry buildForRunning="YES" buildForAnalyzing="YES" buildForProfiling="YES" buildForArchiving="YES" buildForTesting="YES">
+                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="_idx_Interfaces_2FEA48E8_ios_min14.5.framework" BuildableIdentifier="primary" BlueprintIdentifier="34225472D7D4C7C400000000" BlueprintName="_idx_Interfaces_2FEA48E8_ios_min14.5"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForProfiling="YES" buildForRunning="YES" buildForAnalyzing="YES" buildForArchiving="YES" buildForTesting="YES">
-                <BuildableReference BuildableName="_idx_Interfaces_Home_1ECD6A79_ios_min14.5.framework" BlueprintName="_idx_Interfaces_Home_1ECD6A79_ios_min14.5" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="C41DF9F6137CDB6E00000000"></BuildableReference>
+            <BuildActionEntry buildForRunning="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForArchiving="YES" buildForProfiling="YES">
+                <BuildableReference BlueprintName="_idx_Interfaces_Game_6E509B9D_ios_min12.0" BlueprintIdentifier="342254721992F45800000000" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="_idx_Interfaces_Game_6E509B9D_ios_min12.0.framework"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForProfiling="YES" buildForRunning="YES" buildForArchiving="YES" buildForAnalyzing="YES" buildForTesting="YES">
-                <BuildableReference BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintIdentifier="C41DF9F69CBC33B800000000" BuildableName="_idx_Interfaces_A0E5E85A_ios_min14.5.framework" BlueprintName="_idx_Interfaces_A0E5E85A_ios_min14.5"></BuildableReference>
+            <BuildActionEntry buildForTesting="YES" buildForAnalyzing="YES" buildForProfiling="YES" buildForRunning="YES" buildForArchiving="YES">
+                <BuildableReference BlueprintIdentifier="3422547219077F2600000000" BlueprintName="_idx_Home_AF72AB7A_ios_min12.0" BuildableIdentifier="primary" BuildableName="_idx_Home_AF72AB7A_ios_min12.0.framework" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
             </BuildActionEntry>
             <BuildActionEntry buildForAnalyzing="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForTesting="YES">
-                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="C41DF9F65CBCF6CA00000000" BuildableName="_idx_RxSwift_RxRelay_55AB8168_ios_min14.5.framework" BlueprintName="_idx_RxSwift_RxRelay_55AB8168_ios_min14.5"></BuildableReference>
+                <BuildableReference BuildableName="_idx_Interfaces_Game_6E509B9D_ios_min14.5.framework" BuildableIdentifier="primary" BlueprintIdentifier="34225472BD26676800000000" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="_idx_Interfaces_Game_6E509B9D_ios_min14.5"></BuildableReference>
             </BuildActionEntry>
-            <BuildActionEntry buildForProfiling="YES" buildForRunning="YES" buildForTesting="YES" buildForArchiving="YES" buildForAnalyzing="YES">
-                <BuildableReference BuildableIdentifier="primary" BuildableName="_idx_RxSwift_RxRelay_55AB8168_ios_min12.0.framework" BlueprintIdentifier="C41DF9F6AEAE49D000000000" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="_idx_RxSwift_RxRelay_55AB8168_ios_min12.0"></BuildableReference>
+            <BuildActionEntry buildForAnalyzing="YES" buildForTesting="YES" buildForProfiling="YES" buildForArchiving="YES" buildForRunning="YES">
+                <BuildableReference BuildableName="_idx_App_Classes_6FB177B2_ios_min12.0.framework" BlueprintName="_idx_App_Classes_6FB177B2_ios_min12.0" BlueprintIdentifier="342254725D0A48C600000000" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForProfiling="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForArchiving="YES" buildForRunning="YES">
+                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableName="_idx_RIBs_390660C1_ios_min14.5.framework" BuildableIdentifier="primary" BlueprintIdentifier="34225472FF3532A600000000" BlueprintName="_idx_RIBs_390660C1_ios_min14.5"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForProfiling="YES" buildForAnalyzing="YES" buildForTesting="YES" buildForArchiving="YES" buildForRunning="YES">
+                <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="342254721112616600000000" BuildableName="_idx_RxSwift_RxRelay_70C32552_ios_min12.0.framework" BlueprintName="_idx_RxSwift_RxRelay_70C32552_ios_min12.0" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForAnalyzing="YES" buildForArchiving="YES" buildForTesting="YES" buildForProfiling="YES" buildForRunning="YES">
+                <BuildableReference BlueprintName="_idx_Interfaces_History_8B6121CA_ios_min14.5" BuildableIdentifier="primary" BuildableName="_idx_Interfaces_History_8B6121CA_ios_min14.5.framework" BlueprintIdentifier="34225472F816458E00000000" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForArchiving="YES" buildForProfiling="YES" buildForAnalyzing="YES" buildForRunning="YES" buildForTesting="YES">
+                <BuildableReference BlueprintIdentifier="34225472F816458E00000000" BuildableName="_idx_Interfaces_History_8B6121CA_ios_min14.5.framework" BlueprintName="_idx_Interfaces_History_8B6121CA_ios_min14.5" BuildableIdentifier="primary" ReferencedContainer="container:TryHardBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForArchiving="YES" buildForProfiling="YES" buildForAnalyzing="YES" buildForTesting="YES" buildForRunning="YES">
+                <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="34225472F816458E00000000" BuildableName="_idx_Interfaces_History_8B6121CA_ios_min14.5.framework" ReferencedContainer="container:TryHardBazel.xcodeproj" BlueprintName="_idx_Interfaces_History_8B6121CA_ios_min14.5"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForAnalyzing="YES" buildForTesting="YES" buildForProfiling="YES" buildForArchiving="YES" buildForRunning="YES">
+                <BuildableReference BlueprintName="_idx_RxSwift_RxRelay_70C32552_ios_min14.5" BlueprintIdentifier="34225472376B6B6C00000000" ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BuildableName="_idx_RxSwift_RxRelay_70C32552_ios_min14.5.framework"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForAnalyzing="YES" buildForRunning="YES" buildForTesting="YES" buildForProfiling="YES" buildForArchiving="YES">
+                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="34225472EB78B5A400000000" BuildableName="_idx_Interfaces_History_8B6121CA_ios_min12.0.framework" BlueprintName="_idx_Interfaces_History_8B6121CA_ios_min12.0"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForRunning="YES" buildForProfiling="YES" buildForAnalyzing="YES" buildForTesting="YES" buildForArchiving="YES">
+                <BuildableReference ReferencedContainer="container:TryHardBazel.xcodeproj" BuildableIdentifier="primary" BuildableName="_idx_RIBs_390660C1_ios_min12.0.framework" BlueprintIdentifier="342254722D94123400000000" BlueprintName="_idx_RIBs_390660C1_ios_min12.0"></BuildableReference>
             </BuildActionEntry>
         </BuildActionEntries>
     </BuildAction>
-    <TestAction shouldUseLaunchSchemeArgsEnv="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="Debug">
+    <TestAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
         <Testables></Testables>
     </TestAction>
-    <LaunchAction useCustomWorkingDirectory="NO" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" debugServiceExtension="internal" allowLocationSimulation="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" ignoresPersistentStateOnLaunch="NO" buildConfiguration="Debug" debugDocumentVersioning="YES">
+    <LaunchAction debugServiceExtension="internal" debugDocumentVersioning="YES" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" allowLocationSimulation="YES" buildConfiguration="Debug">
         <EnvironmentVariables></EnvironmentVariables>
     </LaunchAction>
-    <ProfileAction debugDocumentVersioning="YES" buildConfiguration="Release" useCustomWorkingDirectory="NO" shouldUseLaunchSchemeArgsEnv="YES"></ProfileAction>
+    <ProfileAction shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="Release" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES"></ProfileAction>
     <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
     <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
 </Scheme>

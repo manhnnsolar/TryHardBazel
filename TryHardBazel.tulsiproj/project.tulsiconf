@@ -7,6 +7,8 @@
   "packages" : [
     "App",
     "Assets",
+    "Game",
+    "History",
     "Home",
     "Root",
     "Thirdparty/RIBs",

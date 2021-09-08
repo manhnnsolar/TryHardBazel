@@ -4,12 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>App-App_Classes.xcscheme_^#shared#^_</key>
+		<key>History-History.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>Home.xcscheme_^#shared#^_</key>
+		<key>History-Interfaces.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
+		<key>Home-Interfaces.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
@@ -19,7 +24,7 @@
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>Root.xcscheme_^#shared#^_</key>
+		<key>Root-Root.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
@@ -29,27 +34,42 @@
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>Thirdparty-RxSwift-RxRelay.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>isShown</key>
-			<true/>
-		</dict>
-		<key>Thirdparty-RxSwift-RxSwift.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>isShown</key>
-			<true/>
-		</dict>
 		<key>_idx_Scheme.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+		</dict>
+		<key>ame-Game.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
+		<key>ame-Interfaces.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
+		<key>hirdparty-RxSwift-RxRelay.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
+		<key>hirdparty-RxSwift-RxSwift.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
 		</dict>
 		<key>ios_app.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>ome-Interfaces.xcscheme_^#shared#^_</key>
+		<key>ome-Home.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
+		<key>pp-App_Classes.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>

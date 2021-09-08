@@ -23,6 +23,10 @@ swift_library(
     deps = [
         ":Interfaces",
         ":HomeResources",
+        "//History:Interfaces",
+        "//Game:Interfaces",
+        "//History",
+        "//Game",
         "//Thirdparty/RIBs",
     ],
 )
